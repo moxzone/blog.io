@@ -1,5 +1,7 @@
 *{
 	text-decoration: none;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -14,7 +16,7 @@ body{
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: #40E0D0;
+	background: rgba(0,0,0,.2);
 }
 
 
@@ -49,12 +51,13 @@ body{
 
 
 .tagline{
-	padding-top: 360px;
+	padding-top: 400px;
 	color: #fff;
 	font-family: "Microsoft Yahei";
 	font-size: 40px;
 	text-align: center;
 	font-weight: normal;
+	opacity: 0.9;
 }
 
 
@@ -86,14 +89,14 @@ li a{
 
 
 li.current a{
-	background: rgba(58,95,205,.6);
+	background: rgba(255,255,255,.3);
 	border: 1px solid transparent;
 }
 
 
 
 li a:hover{
-	border: 1px solid rgba(58,95,205,.6);
+	border: 1px solid rgba(255,255,255,.6);
 }
 
 
