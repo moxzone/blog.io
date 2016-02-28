@@ -22,8 +22,6 @@ body{
 	background: url(./river.jpg);
 	height: 1000px;
 	background-size: cover;
-	margin-top: 0;
-	padding-top: 0;
 }
 
 
@@ -51,10 +49,10 @@ body{
 
 
 .tagline{
-	margin-top: 150px;
+	padding-top: 360px;
 	color: #fff;
 	font-family: "Microsoft Yahei";
-	font-size: 30px;
+	font-size: 40px;
 	text-align: center;
 	font-weight: normal;
 }
