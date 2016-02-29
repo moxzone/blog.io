@@ -7,6 +7,14 @@ a{
 	text-decoration: none;
 }
 
+ul{
+	padding: 0;
+}
+
+
+li{
+	list-style: none;
+}
 
 body{
 	margin: 0;
@@ -84,7 +92,6 @@ body{
 
 
 li{
-	list-style: none;
 	float: left;
 	margin-right: 14px;
 }
@@ -199,4 +206,44 @@ li a:hover{
 	bottom: 10px;
 	font-size: 17px;
 	color: #b5b9bd;
+}
+
+
+
+.footer{
+	height: 160px;
+	background: #4682B4;
+	margin-top: 50px;
+}
+
+
+.icon-wrapper{
+	margin-top: 30px;
+}
+
+.icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	line-height: 120px;
+	text-align: center;
+	float: left;
+	margin-right: 8px;
+}
+
+.icon a{
+	color: #fff;
+}
+
+
+.icon.github{
+	background: #2196F3;
+}
+
+.icon.weibo{
+	background: #D32F2F;
+}
+
+.icon.email{
+	background: #00BCD4;
 }
