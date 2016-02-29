@@ -131,7 +131,7 @@ li a:hover{
 .post-list-wrapper{
 	padding: 70px 0;
 	background: #ebeced;
-	height: 700px;
+	height: 425px;
 }
 
 
@@ -211,39 +211,61 @@ li a:hover{
 
 
 .footer{
-	height: 160px;
+	height: 170px;
 	background: #4682B4;
-	margin-top: 50px;
+	margin-top: 0;
+	position: relative;
+	bottom:0; 
 }
 
 
 .icon-wrapper{
-	margin-top: 30px;
+	padding-top: 40px;
 }
 
 .icon{
-	width: 40px;
-	height: 40px;
+	width: 33px;
+	height: 33px;
 	border-radius: 50%;
-	line-height: 120px;
+	line-height: 33px;
 	text-align: center;
 	float: left;
-	margin-right: 8px;
+	margin-right: 20px;
 }
 
-.icon a{
-	color: #fff;
+.footer a{
+	border-radius: 50%;
 }
 
 
-.icon.github{
+.github{
 	background: #2196F3;
 }
 
-.icon.weibo{
+.weibo{
 	background: #D32F2F;
 }
 
-.icon.email{
+.email{
 	background: #00BCD4;
 }
+
+
+.QR{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 850px;
+	top: -15px;
+}
+
+.copyright{
+	position: relative;
+	padding-left: 1140px;
+	bottom: 7px;
+	color:#fff;
+	font-size: 16px;
+	font-family: "Microsoft Yahei";
+}
+
+
